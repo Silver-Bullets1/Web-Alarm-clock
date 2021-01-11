@@ -50,12 +50,12 @@ $(document).ready(function(){
         var messageText;//message text
         var image = new Image();
         if(time==alarm){//if now is time to alarm
-            image = "IMG_8467.jpeg"; //change pic
+            image = "/Users/blackcatecho/Projects/Web-Alarm-clock/IMG_8467.jpeg"; //change pic
             $("#logo").text("Now is time!");//change text to remind now is time
         }
         else if (hour < noon) //check if it's morning
             {
-                image= "IMG_7464.jpeg"; //morning pic
+                image= "/Users/blackcatecho/Projects/Web-Alarm-clock/IMG_7464.jpeg"; //morning pic
                 messageText = "Good morning!";
                 if($("#logo").text()=="Now is time!"){ //if the alarmed is passed, reset the text and the text color 
                     $("#logo").css("color", "black");
@@ -64,7 +64,7 @@ $(document).ready(function(){
             }
         else if (hour >= evening) //check if it's evening
             {
-                image = "IMG_5056.jpeg"; //evening pic
+                image = "/Users/blackcatecho/Projects/Web-Alarm-clock/IMG_5056.jpeg"; //evening pic
                 messageText = "Good evening!";
                 if($("#logo").text()=="Now is time!"){
                     $("#logo").css("color", "black");
@@ -73,7 +73,7 @@ $(document).ready(function(){
             }
         else
             {
-                image = "IMG_5057.jpeg";
+                image = "/Users/blackcatecho/Projects/Web-Alarm-clock/IMG_5057.jpeg";
                 messageText = "Good afternoon!";
                 if($("#logo").text()=="Now is time!"){
                     $("#logo").css("color", "black");
