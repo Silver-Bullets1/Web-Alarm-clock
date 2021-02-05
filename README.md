@@ -13,4 +13,8 @@ The workspace contains two folders by default, where
 - `ext`: the folder to maintain external source
 
 
-## Under Construction...
+## Feature to be added
+
+- Beeping feature at alarm
+- Mac wideget
+- A general clock UI
