@@ -9,8 +9,8 @@
 ```
 The workspace contains two folders by default, where
 
-- **src**: the folder to maintain source
-- **ext**: the folder to maintain external source
+- src: the folder to maintain source
+- ext: the folder to maintain external source
 
 ```
 ## Feature to be added
